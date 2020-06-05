@@ -1,4 +1,4 @@
-import time
+import time, sys
 
 print('Enter number:')
     
@@ -36,5 +36,5 @@ while True:
         loop()
     except ValueError:
         print('Please type in an integer')
-    
+    sys.exit
 
