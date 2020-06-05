@@ -36,5 +36,5 @@ while True:
         loop()
     except ValueError:
         print('Please type in an integer')
-    sys.exit
+    sys.exit()
 
